@@ -1,0 +1,56 @@
+primero configurar git en mi maquina local 
+	
+	git config --global user.name "mocj"
+	git config --global user.email mariella.ocj
+
+
+Por temas de seguridad generar una clave , la clave que se va a generar debo copiarla  y agregarla en mi cuenta de Git.
+
+	ssh -keygen
+
+Crear repositorio en cuenta github
+
+Crear en mi maquina local un directorio para el pryecto
+
+	mkdir Ejemplo1
+
+Ingresar al proyecto
+
+	cd Ejemplo1
+
+Ahora para comenzar, inicializamos:
+
+	git init 
+
+Ahora conectar el directorio de mi maquina local con mi repositorio en mi cuenta GitHub
+
+	git remote add origin https://***********************.git
+
+Abrir el Editor de Codigo y crear nuevos archivos (Programar)
+
+Para preparar el contenido del directorio 
+
+	git add .
+
+Se debe comentar siempre un cambio con:
+
+	git commit -m "xxxxxxx"
+
+Para subir el directorio preparado y su respectivo comentario 
+
+	git push origin master
+
+
+
+NOTA: 
+
+origin = variable
+Master = rama principal
+
+
+
+
+
+
+
+
